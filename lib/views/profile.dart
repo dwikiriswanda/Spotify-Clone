@@ -118,7 +118,7 @@ class ProfileView extends StatelessWidget {
                   color: Colors.white,
                   image: DecorationImage(
                     fit: BoxFit.cover,
-                    image: AssetImage('images/profile.png'),
+                    image: AssetImage('assets/profile.png'),
                   ),
                 ),
               ),
