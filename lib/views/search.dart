@@ -1,3 +1,5 @@
+// ignore_for_file: missing_required_param
+
 import 'package:flappy_search_bar/flappy_search_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:spotify/views/album_view.dart';
@@ -50,10 +52,6 @@ class _SearchViewState extends State<SearchView> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                // Text(
-                //   "Search",
-                //   style: Theme.of(context).textTheme.headline6,
-                // ),
                 SizedBox(height: 100),
                 Row(
                   children: [
